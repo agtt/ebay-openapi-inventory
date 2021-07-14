@@ -1,0 +1,96 @@
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from openapi_client.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from openapi_client.model.address import Address
+from openapi_client.model.amount import Amount
+from openapi_client.model.availability import Availability
+from openapi_client.model.availability_distribution import AvailabilityDistribution
+from openapi_client.model.availability_with_all import AvailabilityWithAll
+from openapi_client.model.base_response import BaseResponse
+from openapi_client.model.best_offer import BestOffer
+from openapi_client.model.bulk_ebay_offer_details_with_keys import BulkEbayOfferDetailsWithKeys
+from openapi_client.model.bulk_get_inventory_item import BulkGetInventoryItem
+from openapi_client.model.bulk_get_inventory_item_response import BulkGetInventoryItemResponse
+from openapi_client.model.bulk_inventory_item import BulkInventoryItem
+from openapi_client.model.bulk_inventory_item_response import BulkInventoryItemResponse
+from openapi_client.model.bulk_migrate_listing import BulkMigrateListing
+from openapi_client.model.bulk_migrate_listing_response import BulkMigrateListingResponse
+from openapi_client.model.bulk_offer import BulkOffer
+from openapi_client.model.bulk_offer_response import BulkOfferResponse
+from openapi_client.model.bulk_price_quantity import BulkPriceQuantity
+from openapi_client.model.bulk_price_quantity_response import BulkPriceQuantityResponse
+from openapi_client.model.bulk_publish_response import BulkPublishResponse
+from openapi_client.model.charity import Charity
+from openapi_client.model.compatibility import Compatibility
+from openapi_client.model.compatible_product import CompatibleProduct
+from openapi_client.model.dimension import Dimension
+from openapi_client.model.ebay_offer_details_with_all import EbayOfferDetailsWithAll
+from openapi_client.model.ebay_offer_details_with_id import EbayOfferDetailsWithId
+from openapi_client.model.ebay_offer_details_with_keys import EbayOfferDetailsWithKeys
+from openapi_client.model.error import Error
+from openapi_client.model.error_parameter import ErrorParameter
+from openapi_client.model.fee import Fee
+from openapi_client.model.fee_summary import FeeSummary
+from openapi_client.model.fees_summary_response import FeesSummaryResponse
+from openapi_client.model.format_allocation import FormatAllocation
+from openapi_client.model.geo_coordinates import GeoCoordinates
+from openapi_client.model.get_inventory_item import GetInventoryItem
+from openapi_client.model.get_inventory_item_response import GetInventoryItemResponse
+from openapi_client.model.interval import Interval
+from openapi_client.model.inventory_item import InventoryItem
+from openapi_client.model.inventory_item_group import InventoryItemGroup
+from openapi_client.model.inventory_item_listing import InventoryItemListing
+from openapi_client.model.inventory_item_response import InventoryItemResponse
+from openapi_client.model.inventory_item_with_sku_locale import InventoryItemWithSkuLocale
+from openapi_client.model.inventory_item_with_sku_locale_group_keys import InventoryItemWithSkuLocaleGroupKeys
+from openapi_client.model.inventory_item_with_sku_locale_groupid import InventoryItemWithSkuLocaleGroupid
+from openapi_client.model.inventory_items import InventoryItems
+from openapi_client.model.inventory_location import InventoryLocation
+from openapi_client.model.inventory_location_full import InventoryLocationFull
+from openapi_client.model.inventory_location_response import InventoryLocationResponse
+from openapi_client.model.listing_details import ListingDetails
+from openapi_client.model.listing_policies import ListingPolicies
+from openapi_client.model.location import Location
+from openapi_client.model.location_details import LocationDetails
+from openapi_client.model.location_response import LocationResponse
+from openapi_client.model.migrate_listing import MigrateListing
+from openapi_client.model.migrate_listing_response import MigrateListingResponse
+from openapi_client.model.name_value_list import NameValueList
+from openapi_client.model.offer_key_with_id import OfferKeyWithId
+from openapi_client.model.offer_keys_with_id import OfferKeysWithId
+from openapi_client.model.offer_price_quantity import OfferPriceQuantity
+from openapi_client.model.offer_response import OfferResponse
+from openapi_client.model.offer_response_with_listing_id import OfferResponseWithListingId
+from openapi_client.model.offer_sku_response import OfferSkuResponse
+from openapi_client.model.offers import Offers
+from openapi_client.model.operating_hours import OperatingHours
+from openapi_client.model.package_weight_and_size import PackageWeightAndSize
+from openapi_client.model.pickup_at_location_availability import PickupAtLocationAvailability
+from openapi_client.model.price_quantity import PriceQuantity
+from openapi_client.model.price_quantity_response import PriceQuantityResponse
+from openapi_client.model.pricing_summary import PricingSummary
+from openapi_client.model.product import Product
+from openapi_client.model.product_family_properties import ProductFamilyProperties
+from openapi_client.model.product_identifier import ProductIdentifier
+from openapi_client.model.publish_by_inventory_item_group_request import PublishByInventoryItemGroupRequest
+from openapi_client.model.publish_response import PublishResponse
+from openapi_client.model.ship_to_location_availability import ShipToLocationAvailability
+from openapi_client.model.ship_to_location_availability_with_all import ShipToLocationAvailabilityWithAll
+from openapi_client.model.shipping_cost_override import ShippingCostOverride
+from openapi_client.model.special_hours import SpecialHours
+from openapi_client.model.specification import Specification
+from openapi_client.model.tax import Tax
+from openapi_client.model.time_duration import TimeDuration
+from openapi_client.model.varies_by import VariesBy
+from openapi_client.model.version import Version
+from openapi_client.model.weight import Weight
+from openapi_client.model.withdraw_by_inventory_item_group_request import WithdrawByInventoryItemGroupRequest
+from openapi_client.model.withdraw_response import WithdrawResponse
